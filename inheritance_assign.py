@@ -1,3 +1,4 @@
+
 # Parent class with attributes/properties
 class Nissan:
     # def __init__(self, wheels, doors, model, fuel_type,passengers)
@@ -30,4 +31,3 @@ class Rogue(Nissan):
 if __name__ == "__main__":
    New_Altima = Altima(4,4,"Altima","gasoline",5)
    print(New_Altima.transmission)
-    
